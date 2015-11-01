@@ -1,0 +1,47 @@
+a {
+	color:yellow;
+}
+
+a:active {
+	color:springgreen;
+}
+a:hover {
+	color:hotpink;
+}
+
+a:select {
+	color:hotpink;
+}
+
+h1 a {
+	color:springgreen;
+}
+.bgimage {
+	background-image:url(../img/girl.jpg);
+	position:relative;
+	float:right;
+	height:200px;
+	width: 320px;
+	color:springgreen;
+}
+body  {
+	background-color: black;
+}
+
+.card {
+	background-color:black;
+	opacity:0.9;
+	filter:alpha(opacity=40);/*for IE8 and earlier */
+}
+.card-group {
+}
+
+p {
+	color:white;
+}
+.card-text {
+	color:white;
+}
+.form-wrap {
+	color:white;
+}
