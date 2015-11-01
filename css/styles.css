@@ -9,7 +9,7 @@ a:hover {
 	color:hotpink;
 }
 
-a:select {
+a:selection {
 	color:hotpink;
 }
 
@@ -45,3 +45,6 @@ p {
 .form-wrap {
 	color:white;
 }
+#sub {
+	 color:lightgrey;
+ }

@@ -23,7 +23,6 @@
 
 			</div>
 		</header>
-
 		<main>
 			<article>
 		<div class="container">
@@ -38,39 +37,29 @@
 			<div class="row">
 				<div class="card-deck">
 					<div class="card">
-						<img class="card-img-top" src="../../img/paintbrusht.png" alt="art"/>
+						<a class="card-img-top" href="../../links/design.php"><img src="../../img/paintbrusht.png" alt="art"</a>
 						  <div class="card-block">
-							  <p class="card-text"></p>
-							<p>Website Design</p>
+							  <p class="card-text"><a href="../../links/design.php"title="website design services">Website Design Services</a></p>
+						  </div>
+					</div>
+					<div class="card">
+						<a class="card-img-top" href="../../links/contact.php"><img src="../../img/goalt.png" alt="goal"</a>
+						<div class="card-block">
+							<p class="card-text"><a href="../../links/contact.php" title="email Jennifer!">Contact Designer</a></p>
 						</div>
 					</div>
 					<div class="card">
-						<img class="card-img-top" src="../../img/goalt.png" alt="goal"/>
+						<a class="card-img-top" href="../../links/design.php"><img src="../../img/mouse2t copy.png" alt="help"</a>
 						<div class="card-block">
-							<p class="card-text"></p>
-							<p>Freelancer</p>
-						</div>
-					</div>
-					<div class="card">
-						<img class="card-img-top" src="../../img/happyt.png" alt="help"/>
-						<div class="card-block">
-							<p class="card-text"></p>
-							<p>Perfect for Entrepreneurs</p>
+							<p class="card-text"><a href="../../links/design.php" title="perfect for entrepreneurs">Perfect for Entrepreneurs</a></p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		</article>
+			</article>
 </main>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<p>Click here for <a href="../../links/contact.php" title="email Jennifer!">Website Design Services</a></p>
-					</div>
-					<div class="col-md-4"></div>
-					  </div>
-					</div>
+
 		<br>
 		<div class="footer">
 			<div class="leftCol"><p>all content @copy; copyright 2015 CodeGirlDesigns</p>
