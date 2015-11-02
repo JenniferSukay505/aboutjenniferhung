@@ -51,7 +51,7 @@
 				<div class="face3">3</div>
 				<div class="face4">4</div>
 				<div class="face5">5</div>
-				<div class="face6"><img src="./img/dicecode2.png"></div>
+				<div class="face6"><a href="public_html/documentation/milestone-1.php" title="home"><img src="./img/dicecode2.png"></a></div>
 			</div>
 		</div>
 

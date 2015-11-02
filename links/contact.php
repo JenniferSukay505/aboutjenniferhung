@@ -2,33 +2,55 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="../css/styles.css" type="text/css">
-		<!-- jQuery library -->
-		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-		<!-- Latest compiled javascript-->
-		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<!-- Bootstrap -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"
+				integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc=
+		sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+				crossorigin="anonymous">
+		<link rel="stylesheet" href= "../css/styles.css"/>
 
-		<title>About Jennifer Sukay</title>
-	</head>
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+		<script type="text/javacript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
+				  integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc=
+					sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
+				  crossorigin="anonymous"></script>
+
+	<head>
 	<body>
 		<header class="bgimage">
-			<div class="clearfix"></div>
-			<div class="container">
-				<div class="col-xs-12 col-md-7">
-
-				<h1><a href="../public_html/documentation/milestone-1.php" title="codegirl">CodeGirl</a></h1>
-				<div class="clearfix"></div>
+			<div  class="container">
+				<h1>CodeGirl</h1>
 			</div>
 		</header>
-		<header class="banner">
-			<div class="container"></div>
-		</header>
+		<div class="clearfix"></div>
+		<nav class="navbar navbar-inverse">
+			<!-- logo and mobile toggle button get grouped together for better mobile display-->
+			<div class="navbar-header">
+				<!-- this is the mobile menu button-->
+				<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-menu">
+					<span class="sr-only">main menu</span>
+					<span class="glyphicon glyphicon-menu-hamburger"></span>
+				</button>
+				<div class="clearfix"></div>
+			</div>
+			<!-- here are your main nav links, grouped for toggling-->
+			<div class="collapse navbar-collapse" id="main-menu">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="../public_html/documentation/milestone-1.php">Home</a></li>
+					<li><a href="../new.php">Links</a></li>
+					<li><a href="../links/contact.php">Contact</a></li>
+				</ul>
+			</div>
 
 		<div class="container"></div>
 
