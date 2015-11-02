@@ -47,7 +47,6 @@
 			<div class="collapse navbar-collapse" id="main-menu">
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#">Home</a></li>
-					<li><a href="#">Link1</a></li>
 					<li><a href="#">Links</a></li>
 					<li><a href="#">Contact</a></li>
 				</ul>
