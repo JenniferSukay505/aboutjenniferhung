@@ -1,0 +1,164 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#moire {
+	z-index: 0;
+	mix-blend-mode: color-dodge;
+}
+
+#bulles {
+	z-index: 3;
+	mix-blend-mode: hard-light;
+}
+
+#stripes {
+	mix-blend-mode: color;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	mix-blend-mode: difference;
+}
+
+.img {
+	position: absolute;
+	index: 1;
+	bottom: -15vh;
+	right: -21vw;
+	width: 105vw;
+	height: 110vh;
+	mix-blend-mode: color-dodge;
+	opacity: 0;
+	-webkit-animation: moveY 7s linear 0s 1 forwards;
+	animation: moveY 7s linear 0s 1 forwards;
+}
+
+@-webkit-keyframes moveY {
+	0% {
+		bottom: -5vh;
+		-webkit-transform: scale(0.8) rotate(21.53748deg);
+		transform: scale(0.8) rotate(21.53748deg);
+	}
+	40% {
+		opacity: .7;
+		bottom: -20vh;
+		-webkit-transform: rotate(-2.9952deg);
+		transform: rotate(-2.9952deg);
+	}
+	75% {
+		opacity: .7;
+		bottom: -16vh;
+		-webkit-transform: rotate(13.0048deg);
+		transform: rotate(13.0048deg);
+	}
+	79% {
+		opacity: .7;
+		bottom: -10vh;
+		-webkit-transform: rotate(-9deg) scale(1.15);
+		transform: rotate(-9deg) scale(1.15);
+		right: -8vw;
+	}
+	85% {
+		bottom: -12vh;
+		-webkit-transform: rotate(-9deg) scale(1.15);
+		transform: rotate(-9deg) scale(1.15);
+		right: -8vw;
+		width: 90vw;
+	}
+	90% {
+		bottom: -9vh;
+		-webkit-transform: rotate(7deg) scale(1.15);
+		transform: rotate(7deg) scale(1.15);
+		right: -8vw;
+	}
+	94% {
+		opacity: 1;
+		bottom: -11vh;
+		-webkit-transform: rotate(-5deg) scale(1.15);
+		transform: rotate(-5deg) scale(1.15);
+		right: -8vw;
+		width: 101vw;
+	}
+	100% {
+		opacity: 1;
+		width: 100vw;
+		bottom: -10vh;
+		-webkit-transform: rotate(4deg) scale(1.08);
+		transform: rotate(4deg) scale(1.08);
+		right: -3vw;
+	}
+}
+
+@keyframes moveY {
+	0% {
+		bottom: -5vh;
+		-webkit-transform: scale(0.8) rotate(21.53748deg);
+		transform: scale(0.8) rotate(21.53748deg);
+	}
+	40% {
+		opacity: .7;
+		bottom: -20vh;
+		-webkit-transform: rotate(-2.9952deg);
+		transform: rotate(-2.9952deg);
+	}
+	75% {
+		opacity: .7;
+		bottom: -16vh;
+		-webkit-transform: rotate(13.0048deg);
+		transform: rotate(13.0048deg);
+	}
+	79% {
+		opacity: .7;
+		bottom: -10vh;
+		-webkit-transform: rotate(-9deg) scale(1.15);
+		transform: rotate(-9deg) scale(1.15);
+		right: -8vw;
+	}
+	85% {
+		bottom: -12vh;
+		-webkit-transform: rotate(-9deg) scale(1.15);
+		transform: rotate(-9deg) scale(1.15);
+		right: -8vw;
+		width: 90vw;
+	}
+	90% {
+		bottom: -9vh;
+		-webkit-transform: rotate(7deg) scale(1.15);
+		transform: rotate(7deg) scale(1.15);
+		right: -8vw;
+	}
+	94% {
+		opacity: 1;
+		bottom: -11vh;
+		-webkit-transform: rotate(-5deg) scale(1.15);
+		transform: rotate(-5deg) scale(1.15);
+		right: -8vw;
+		width: 101vw;
+	}
+	100% {
+		opacity: 1;
+		width: 100vw;
+		bottom: -10vh;
+		-webkit-transform: rotate(4deg) scale(1.08);
+		transform: rotate(4deg) scale(1.08);
+		right: -3vw;
+	}
+}
+body {
+	background-color: black;
+}

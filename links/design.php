@@ -27,13 +27,12 @@
 		</header>
 		<div class="container">
 			<div class="clearfix"></div>
-
 			<div class="row">
 				<div class="col-xs-12 col-md-7">
 					<h2>Website Design Benefits</h2>
 					<ul>
-						<li>Up-to-date coding</li>
-						<li>Streamlined and easy-to-use</li>
+						<li>Update </li>
+						<li>Streamline</li>
 					</ul>
 				</div>
 		</div>
