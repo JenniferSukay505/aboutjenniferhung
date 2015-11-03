@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 a {
 	color:yellow;
 }
@@ -20,22 +19,47 @@ h1 a {
 	color:springgreen;
 }
 
-h2 ul li{
+.container dl {
 	color:white;
 }
-.bgimage {
-	background-image:url(../img/girl.jpg);
-	height:200px;
-	width: 320px;
-	position:relative;
-	float:right;
-	color:springgreen;
-	background-color:black;
+.container dd {
+	color:lightslategrey;
+	font-size:1.25em;
 }
+
 body  {
 	background-color: black;
 }
 
 p {
 	color:white;
+}
+header {
+	background-color:black;
+}
+.lead {
+	font-size:1.5em;
+}
+.bgimage {
+	background-image:url(../img/koifish.png);
+	background-repeat: no-repeat;
+	height:250px;
+	width: 193px;
+	position:relative;
+	float:right;
+	color:springgreen;
+	background-color:black;
+}
+.container#objective {
+	background-color:black;
+	padding:15px;
+	border:15px solid darkgray;
+	margin:15px;
+}
+
+.container dt {
+	text-shadow:#888 2px 2px 3px;
+	color:lightgrey;
+	font-weight:bold;
+	font-size:1.25em;
 }
