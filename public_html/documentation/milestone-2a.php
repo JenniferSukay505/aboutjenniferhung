@@ -20,14 +20,11 @@
 	<body>
 		<article>
 			<header>
-				<h1>Persona and Use Case</h1>
+				<h1>Persona</h1>
 			</header>
 			<main>
 				<article>
 					<table class="table">
-						<caption>Persona</caption>
-						<thead>
-						<tbody>
 							<tr>
 								<th>Name</th>
 								<td>Christine Trielo</td>
@@ -47,12 +44,12 @@
 							<tr>
 								<th>Technology</th>
 								<td>Uses  a mac laptop 15-inch 2014 high retina and iphone 6. </td>
+
 							</tr>
 							<tr>
 								<th>Background</th>
-								<td> Opening a restaurant in Albuquerque and needs a website for advertisement. </td>
-								<td> Christine has poked into learning html for coding websites before,
-								but never had the time to learn.  However, she has learned enough to know what organized code looks like.  </td>
+								<td> Christine has a small grasp of html from highschool 10 years ago.  She knows what organized code looks like
+									and that her desired website is obtainable.  Opening a restaurant in Albuquerque and needs a website for advertisement.<td>
 							</tr>
 
 							<tr>
@@ -82,7 +79,7 @@
 									also be willing to work for minimum wage..
 					</table>
 					<section>
-						<p>Use Case</p>
+						<h1>Use Case</h1>
 						<tr>
 							<th>
 								<td>Christine found my site while checking out freelancer.com, noted the recently published date, and
@@ -91,38 +88,12 @@
 							clearly laid out.  </td>
 							<td>After reading the About Me section and noting my education, Christine searched my name on google which pulled up my linkedIn and facebook profiles.
 								Both showed I was networked with groups and other developers and had a few comments on coding articles. We had the coding group "WomeninCoding" in common. </td>
-							<td>Christine did not like that a phone number wasn't listed, but decided to give me a chance and  sent an email from the contact link on my webpage to call her.</td>
+							<td>Christine called the phone number displayed after she clicked the contact link on my webpage .</td>
 						</tr>
-					</section>
-
-					<section>
-						<h2>Proposed Site Map</h2>
-						<p> Site will consist of 3 pages with no sub-pages or sub-navigation.</p>
-						<ul>
-							<li>Home Page</li>
-							<li>Portfolio</li>
-							<li>Contact</li>
-						</ul>
-						<tr>
-							<th>Home Page</th>
-							<td>A brief introduction stating my name, education, and experience in coding.</td>
-							<td>This will include links to my social media profiles LinkedIn and Twitter.  </td>
-						</tr>
-
-						<tr>
-							<th>Portfolio</th>
-							<td>Examples of my work.  This will include links to websites as well as a description of my contributions
-							to the projects. </td>
-						</tr>
-						<tr>
-							<th>Contact</th>
-							<td>This page will contain a simple contact form to email me, my email address</td>
-						</tr>
-
 					</section>
 				</article>
 			</main>
-	</body>
-</html>
+
+
 
 
