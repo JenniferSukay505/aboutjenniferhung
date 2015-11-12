@@ -87,7 +87,7 @@
 							clearly laid out.  </td>
 							<td>After reading the About Me section and noting my education, Christine searched my name on google which pulled up my linkedIn and facebook profiles.
 								Both showed I was networked with groups and other developers and had a few comments on coding articles. We had the coding group "WomeninCoding" in common. </td>
-							<td>Christine called the phone number displayed after she clicked the contact link on my webpage .</td>
+							<td> Christine called the phone number displayed after she clicked the contact link on my webpage .</td>
 						</tr>
 					</section>
 				</article>
