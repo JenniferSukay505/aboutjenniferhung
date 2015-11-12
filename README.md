@@ -16,3 +16,10 @@ There are a few edits I'd like you to make, and a few very minor errors in your 
 - Remove the "http:" from the src URLs in your &lt;link&gt; and &lt;script&gt; tags. This will make these links protocol agnostic.
 - The closing &lt;/body&gt; and &lt;/html&gt; tags are missing in milestone-1.php
 - Remove @charset from your CSS file. It is not unnescessary since you are not using non-ASCII characters in your CSS.
+
+##Milestone 2 Feedback
+Good job on Milestone 2. All requirements have been met, and this provides enough direction to move forward with wireframes. Your Milestone 2 passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/)
+
+###Suggestions &amp; Edits
+- add /vendor on line 3 of .gitignore
+- There were some minor HTML errors - no need to go back in and correct them, just take note for reference: milestone-2a.php is missing closing &lt;/body&gt; and &lt;/html&gt; tags. The opening &lt;article&gt; tag on line 21 is out of place. 
