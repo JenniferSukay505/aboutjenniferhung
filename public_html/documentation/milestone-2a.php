@@ -18,7 +18,6 @@
 		<title>milestone-2</title>
 	</head>
 	<body>
-		<article>
 			<header>
 				<h1>Persona</h1>
 			</header>
@@ -93,6 +92,8 @@
 					</section>
 				</article>
 			</main>
+		</body>
+	</html>
 
 
 
