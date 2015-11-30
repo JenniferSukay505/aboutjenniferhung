@@ -22,4 +22,9 @@ Good job on Milestone 2. All requirements have been met, and this provides enoug
 
 ###Suggestions &amp; Edits
 - add /vendor on line 3 of .gitignore
-- There were some minor HTML errors - no need to go back in and correct them, just take note for reference: milestone-2a.php is missing closing &lt;/body&gt; and &lt;/html&gt; tags. The opening &lt;article&gt; tag on line 21 is out of place. 
+- There were some minor HTML errors - no need to go back in and correct them, just take note for reference: milestone-2a.php is missing closing &lt;/body&gt; and &lt;/html&gt; tags. The opening &lt;article&gt; tag on line 21 is out of place.
+
+## Milestone 3 Feeback
+This layout should be simple and easy using Bootstrap. If you are still planning on creating a portfolio gallery, you may want to take a look at the [Swipebox](http://brutaldesign.github.io/swipebox/) plugin. 
+
+Good job here, your Milestone 3 passes at Tier III. Go ahead and start development on your PWP. 
