@@ -28,7 +28,7 @@ pQ==" crossorigin="anonymous"></script>
 	<body>
 		<header class="bgimage">
 			<div  class="header">
-				<h1>Koi Koi</h1>
+				<h1>Brand</h1>
 			</div>
 		</header>
 	<div class="clearfix"></div>
