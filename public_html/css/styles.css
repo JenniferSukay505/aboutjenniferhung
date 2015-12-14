@@ -1,63 +1,138 @@
-a {
-	color:yellow;
+/***********************************************
+*
+*personal website styles
+*
+*jhung <jhung@cnm.edu>
+*
+*************************************************/
+
+body {
+	background: #F1F3FA;
 }
 
-a:active {
-	color:springgreen;
-}
-a:hover {
-	color:hotpink;
+/* Profile container */
+.profile {
+	margin: 20px 0;
 }
 
-a::selection {
-	color:hotpink;
+/* Profile sidebar */
+.profile-sidebar {
+	padding: 20px 0 10px 0;
+	background: #fff;
 }
 
-h1 a {
-	color:springgreen;
+.profile-img img {
+	float: none;
+	margin: 0 auto;
+	width: 50%;
+	height: 50%;
+	-webkit-border-radius: 50% !important;
+	-moz-border-radius: 50% !important;
+	border-radius: 50% !important;
 }
 
-.container dl {
-	color:white;
-}
-.container dd {
-	color:lightslategrey;
-	font-size:1.25em;
+.sidebar-header {
+	text-align: center;
+	margin-top: 20px;
 }
 
-body  {
-	background-color: black;
+.profile-name {
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 7px;
 }
 
-p {
-	color:white;
-}
-header {
-	background-color:black;
-}
-.lead {
-	font-size:1.5em;
-}
-.bgimage {
-	background-image:url(../img/koifish.png);
-	background-repeat: no-repeat;
-	height:250px;
-	width: 193px;
-	position:relative;
-	float:right;
-	color:springgreen;
-	background-color:black;
-}
-.container#objective {
-	background-color:black;
-	padding:15px;
-	border:15px solid darkgray;
-	margin:15px;
+.profile-job {
+	text-transform: uppercase;
+	color: #5b9bd1;
+	font-size: 12px;
+	font-weight: 600;
+	margin-bottom: 15px;
 }
 
-.container dt {
-	text-shadow:#888 2px 2px 3px;
-	color:lightgrey;
-	font-weight:bold;
-	font-size:1.25em;
+.profile-buttons {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.profile-buttons .btn {
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: 600;
+	padding: 6px 15px;
+	margin-right: 5px;
+}
+
+.profile-buttons .btn:last-child {
+	margin-right: 0px;
+}
+
+.profile-menu {
+	margin-top: 30px;
+}
+
+.profile-menu ul li {
+	border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-menu ul li:last-child {
+	border-bottom: none;
+}
+
+.profile-menu ul li a {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.profile-menu ul li a i {
+	margin-right: 8px;
+	font-size: 14px;
+}
+
+.profile-menu ul li a:hover {
+	background-color: #fafcfd;
+	color: #5b9bd1;
+}
+
+.profile-menu ul li.active {
+	border-bottom: none;
+}
+
+.profile-menu ul li.active a {
+	color: #5b9bd1;
+	background-color: #f6f9fb;
+	border-left: 2px solid #5b9bd1;
+	margin-left: -2px;
+}
+
+/*********************************************************************
+ *
+ *Profile Content
+ *
+ */
+.profile-content {
+	padding: 20px;
+	background: #fff;
+	min-height: 460px;
+}
+/***********************************************************************
+*
+*sticky footer styles
+*
+************************************************************************/
+
+.site {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.site-content {
+	flex: 1;
+}
+
+.btn-linkedin {
+	background: #0e76a8;
+	border-radius: 0;
+	color: #fff
 }

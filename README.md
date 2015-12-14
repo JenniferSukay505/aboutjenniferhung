@@ -22,4 +22,5 @@ Good job on Milestone 2. All requirements have been met, and this provides enoug
 
 ###Suggestions &amp; Edits
 - add /vendor on line 3 of .gitignore
-- There were some minor HTML errors - no need to go back in and correct them, just take note for reference: milestone-2a.php is missing closing &lt;/body&gt; and &lt;/html&gt; tags. The opening &lt;article&gt; tag on line 21 is out of place. 
+- There were some minor HTML errors - no need to go back in and correct them, just take note for reference: milestone-2a.php is missing closing &lt;/body&gt; and &lt;/html&gt; tags. 
+The opening &lt;article&gt; tag on line 21 is out of place. 
