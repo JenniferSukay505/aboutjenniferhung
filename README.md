@@ -32,4 +32,12 @@ The opening &lt;article&gt; tag on line 21 is out of place.
 This layout should be simple and easy using Bootstrap. If you are still planning on creating a portfolio gallery, you may want to take a look at the [Swipebox](http://brutaldesign.github.io/swipebox/) plugin. 
 
 Good job here, your Milestone 3 passes at Tier III. Go ahead and start development on your PWP. 
->>>>>>> origin/master
+
+## Milestone 4 Feedback
+Thanks for submitting Milestone 4 on time Jennifer. You have a great start here, but a lot of work ahead. Nice work on the responsive behavior. 
+
+### Suggestions
+- Consider implementing the sticky footer to keep your footer at the bottom of the page.
+- Your Contact link opens in a new tab. Minor, but you'll want to fix this.
+- Dont forget to include a contact form and install swiftmailer. See [Sending Email with PHP](https://bootcamp-coders.cnm.edu/class-materials/php/email/)
+- Deploy to your A Small Orange host by Thursday.   
